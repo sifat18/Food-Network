@@ -1,0 +1,168 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 3rem;
+}
+span{
+    color: orange;
+}
+
+.starting, .middle, .cards{
+    display: flex;
+    }
+.top-banner{
+    width: 32%;
+    padding-left: 10%;
+}
+.description{
+ padding-top: 8%;
+ font-weight: 600;
+}
+.gray-text{
+    color: gray;
+
+}
+.btn{
+    margin-top: 15%;
+}
+.link-1{
+    color: white;
+    text-decoration: none;
+    
+    padding: 5% 10%;
+    background-image: repeating-radial-gradient(orange,red);
+    border-radius: 50px;
+    box-shadow: 0 0 5px 5px  lightcoral;
+}
+
+.middle{
+    margin-top: 10%;
+    display: flex;
+    background-image: url("7.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 1%;
+   
+
+}
+#girl-standing{
+    height:500px;
+    width: 330px;
+    padding-top: 20%;
+    padding-left: 28%;
+}
+
+.about-me{
+    width: 32%;
+    padding-left: 10%;
+}
+
+.quote{
+    padding-top: 5%;
+ font-weight: 450;
+}
+.bottom{
+    margin-top: 5%;
+    min-height: 500px;
+}
+.recipies{
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+    font-size: 1.5rem;
+}
+.recipies p{
+    
+    font-weight: 400;
+    color: gray;
+    font-size: 1rem;
+}
+
+.card{
+    width: 23%;
+    margin: 4% auto;
+    padding-left: 2%;
+    background-color: white;
+  
+    border: 1px wheat solid;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px lightgrey;    
+}
+
+#food-img1{
+    margin: 20px 0 20px 0;
+    background-image: url("Project\ Cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+/* text-align: center; */
+    height: 250px;
+    width: 90%;
+    border-radius: 25px;
+}
+#food-img2{
+    
+    background-image: url("Project\ Cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    /* text-align: center; */
+width: 90%;
+    border-radius: 25px;
+    margin: 20px 0 20px 0;
+}
+#food-img3{
+    margin: 20px 0 20px 0;
+    background-image: url("Project\ Cover1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 90%;
+    border-radius: 25px;
+}
+.reciepe-title{
+    font-weight: 800;
+}
+.reciepe-text{
+    font-weight: 400;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    
+}
+#gray{
+    color: grey;
+}
+footer h2{
+    text-align: center;
+    padding-top: 2%;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 2%;
+    color: lightgrey;
+}
+
+.statistics{
+    display: flex;
+    margin: 5% auto;
+    height: 200px;
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px whitesmoke;  
+    text-align: center;
+}
+.stat{
+font-weight: 900;
+    padding-left: 15%;
+}
+
+.stat p{
+
+    font-weight: 400;
+    color: gray;
+}
